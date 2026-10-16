@@ -1,0 +1,74 @@
+Network Device Information System
+=======================================================
+
+SYSTEM INFORMATION
+----------------------------------------
+Hostname: sudar
+Operating System: Linux
+Distribution: NAME="Linux Mint"
+Kernel Version: 7.0.0-31-generic
+Platform: Linux-7.0.0-31-generic-x86_64-with-glibc2.39
+Machine Architecture: x86_64
+Python Version: 3.12.3
+Processor: Intel(R) Core(TM) i3-1005G1 CPU @ 1.20GHz
+CPU Architecture: x86_64
+CPU Cores: 2
+CPU Threads: 4
+CPU Usage: 5.0%
+Display Resolution: 1920 x 1080
+Hostname IP Addresses: 127.0.1.1
+System Uptime: 0 days, 0 hours, 14 minutes
+
+HARDWARE INFORMATION
+----------------------------------------
+Manufacturer: ASUSTeK COMPUTER INC.
+Computer Model: VivoBook_ASUSLaptop X515JAB_X515JA
+Product Version: 1.0
+BIOS Vendor: American Megatrends Inc.
+BIOS Version: X515JAB.309
+CPU Model: Intel(R) Core(TM) i3-1005G1 CPU @ 1.20GHz
+CPU Vendor: GenuineIntel
+CPU Sockets: 1
+CPU Cores per Socket: 2
+Virtualization: VT-x
+Graphics Adapter: 00:02.0 VGA compatible controller: Intel Corporation Iris Plus Graphics G1 (Ice Lake) (rev 07)
+
+RAM AND SWAP
+----------------------------------------
+Total RAM: 7.50 GB
+Used RAM: 2.26 GB
+Available RAM: 4.69 GB
+RAM Usage: 37.5%
+Free RAM (unused): 2.90 GB
+Total Swap: 8.00 GB
+Used Swap: 0.00 B
+Swap Usage: 0.0%
+
+NETWORK CONFIGURATION
+----------------------------------------
+Default Gateway: 10.153.17.106
+DNS Servers: 127.0.0.53
+Routing Table: default via 10.153.17.106 dev wlo1 proto dhcp src 10.153.17.74 metric 600 
+10.153.17.0/24 dev wlo1 proto kernel scope link src 10.153.17.74 metric 600
+Interface Count: 2
+
+PHYSICAL DISKS AND PARTITIONS
+nvme0n1 | disk | 476.94 GB | Micron_2450_MTFDKBA512TFK | SSD | - | -
+nvme0n1p1 | part | 100.00 MB | Not reported | - | vfat | /boot/efi
+nvme0n1p2 | part | 16.00 MB | Not reported | - | - | -
+nvme0n1p3 | part | 144.91 GB | Not reported | - | ntfs | -
+nvme0n1p4 | part | 845.00 MB | Not reported | - | ntfs | -
+nvme0n1p5 | part | 654.00 MB | Not reported | - | ntfs | -
+nvme0n1p6 | part | 100.48 GB | Not reported | - | ntfs | /mnt/6EB04BCCB04B998B
+nvme0n1p7 | part | 140.97 GB | Not reported | - | ntfs | /mnt/781A561F1A55DB28
+nvme0n1p8 | part | 89.00 GB | Not reported | - | ext4 | /
+
+FILESYSTEM USAGE
+/dev/nvme0n1p8 | / | ext4 | 87.30 GB | 76.27 GB | 6.56 GB | 92.1%
+/dev/nvme0n1p6 | /mnt/6EB04BCCB04B998B | fuseblk | 100.48 GB | 45.13 GB | 55.35 GB | 44.9%
+/dev/nvme0n1p7 | /mnt/781A561F1A55DB28 | fuseblk | 140.97 GB | 125.27 GB | 15.70 GB | 88.9%
+/dev/nvme0n1p1 | /boot/efi | vfat | 96.00 MB | 37.53 MB | 58.47 MB | 39.1%
+
+NETWORK INTERFACES
+lo | UNKNOWN | 00:00:00:00:00:00 | IPv4: 127.0.0.1/8, IPv6: ::1/128
+wlo1 | UP | 2c:3b:70:c9:f3:b7 | IPv4: 10.153.17.74/24, IPv6: 2409:40f4:3001:ee87:5d42:4a4:4c53:45b0/64, IPv6: 2409:40f4:3001:ee87:6db8:a038:369d:3cc6/64, IPv6: fe80::90da:30:c7b4:17a9/64
